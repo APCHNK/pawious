@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Elevate your hunting dog's training with our top-tier hunting dog shock collar. These collars are designed to meet the demands of rigorous outdoor environments, ensuring that your four-legged partner is always at their best.<\/p>\n<p>Advanced training tools come with state-of-the-art features that enable you to refine your hunting dog's abilities and obedience. With their exceptional range and reliability, these hunting dog shock collars provide precise communication, allowing you to maintain control even on vast hunting grounds.<\/p>\n<p>Count on rechargeable batteries for convenience, waterproof durability for all-weather use, and remote control for seamless communication. Your hunting expeditions will be more efficient and enjoyable as you and your hunting dog build a stronger, more effective partnership.<\/p>\n<p>Take your hunting to the next level with our hunting dog training collars, and experience the difference in your dog's performance and your overall hunting success.<\/p>"
+      }
+    },
+    "2da21a58-3275-4656-8cdc-692e5c71d5e7": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "What is the best training collar for a dog for hunting?",
+        "faq_content_1": "<p>We recommend paying attention to the <a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t680-for-hunting\"><span style=\"color: rgb(41, 105, 176);\">T680 collar<\/span><\/a>, which is made from premium-grade materials and offers excellent performance. If you require longer range, the <a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t720\"><span style=\"color: rgb(41, 105, 176);\">T720 collar<\/span><\/a> is a suitable choice. These collars are designed to meet the specific needs of hunting dogs.<\/p>",
+        "faq_question_2": "What Are the Main Types of Hunting Dog Training Collars?",
+        "faq_content_2": "<p>There are several main types of hunting dog training collars, including:<\/p>\n<ul>\n    <li>Electronic Training Collars: These can be remote-controlled and offer various training modes, including stimulation, vibration, and tone.<\/li>\n    <li>Beeper Collars: These emit beeping sounds to help locate your dog while hunting.<\/li>\n    <li>GPS Tracking Collars: These provide real-time location tracking for your dog in the field, ensuring you can find them easily.\"<\/li>\n<\/ul>",
+        "faq_question_3": "Can I Use a Hunting Dog Training Collar for Regular Obedience Training?",
+        "faq_content_3": "Yes, you can use a hunting dog training collar for regular obedience training. Many hunting dog training collars offer a range of training modes, including stimulation, vibration, and tone, which can be adjusted to suit obedience training needs. However, it's important to use these collars responsibly, with proper training techniques, and at appropriate intensity levels.",
+        "faq_question_4": "",
+        "faq_content_4": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_question_5": "",
+        "faq_content_5": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_question_6": "",
+        "faq_content_6": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "2da21a58-3275-4656-8cdc-692e5c71d5e7"
+  ]
+}

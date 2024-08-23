@@ -1,0 +1,239 @@
+{% schema %}
+{
+  "name": "FAQ Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "faq_title",
+      "label": "FAQ Title"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_1",
+      "label": "FAQ question 1"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_1",
+      "label": "FAQ Content 1"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_2",
+      "label": "FAQ question 2"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_2",
+      "label": "FAQ Content 2"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_3",
+      "label": "FAQ question 3"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_3",
+      "label": "FAQ Content 3"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_4",
+      "label": "FAQ question 4"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_4",
+      "label": "FAQ Content 4"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_5",
+      "label": "FAQ question 5"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_5",
+      "label": "FAQ Content 5"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_question_6",
+      "label": "FAQ question 6"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_content_6",
+      "label": "FAQ Content 6"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "FAQ Section",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_content_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_content_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_content_3": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_content_4": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_content_5": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "faq_content_6": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<div class="faq-section">
+  <h2 class="text-center">{{ section.settings.faq_title }}</h2>
+  <div class="faq-content" itemscope="" itemtype="https://schema.org/FAQPage">
+    {% if section.settings.faq_question_1 != '' %}
+      <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+        
+          <span itemprop="name">{{ section.settings.faq_question_1 }}</span>
+        
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div class="answer" itemprop="text">
+            <p>{{ section.settings.faq_content_1 }}</p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.faq_question_2 != '' %}
+    <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+     
+        <span itemprop="name">{{ section.settings.faq_question_2 }}</span>
+      
+      <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="answer" itemprop="text">
+          <p>{{ section.settings.faq_content_2 }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% if section.settings.faq_question_3 != '' %}
+    <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      
+        <span itemprop="name">{{ section.settings.faq_question_3 }}</span>
+      
+      <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="answer" itemprop="text">
+          <p>{{ section.settings.faq_content_3 }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% if section.settings.faq_question_4 != '' %}
+    <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      
+        <span itemprop="name">{{ section.settings.faq_question_4 }}</span>
+      
+      <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="answer" itemprop="text">
+          <p>{{ section.settings.faq_content_4 }}</p>
+        </div>
+      </div>
+      
+    </div>
+    {% endif %}
+    {% if section.settings.faq_question_5 != '' %}
+    <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      
+        <span itemprop="name">{{ section.settings.faq_question_5 }}</span>
+      
+      <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="answer" itemprop="text">
+          <p>{{ section.settings.faq_content_5 }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% if section.settings.faq_question_6 != '' %}
+    <div class="question" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      
+        <span itemprop="name">{{ section.settings.faq_question_6 }}</span>
+      
+      <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="answer" itemprop="text">
+          <p>{{ section.settings.faq_content_6 }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+<style>
+  .faq-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .faq-content {
+    padding-top: 30px;
+  }
+
+  .question {
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(10, 11, 49, 0.2);
+    padding-top: 30px;
+  }
+  .text-center {
+    text-align: center!important;
+  }
+
+  .question span {
+    cursor: pointer;
+    padding: 10px;
+    color: #2980b9; /* Color for the question text */
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    font-size: 17px;
+
+  }
+  @media (min-width: 768px) {
+    .faq-section {
+      width: 60% !important;
+    }
+  }
+
+  .answer {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .question .answer {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 1s ease-out, opacity 0.5s ease-out;
+    padding: 15px;
+  }
+
+  .question.active .answer {
+    max-height: fit-content; /* Adjust to an appropriate maximum height */
+    opacity: 1;
+    font-size: 15px;
+  }
+</style>
+<script>
+  // JavaScript to handle accordion functionality
+  const questions = document.querySelectorAll('.question');
+
+  questions.forEach(question => {
+    question.addEventListener('click', () => {
+      question.classList.toggle('active');
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+

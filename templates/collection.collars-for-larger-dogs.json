@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Introducing the training collars for large dogs – say goodbye to struggles when training your big furry friend with our shock collar designed for large dogs. Whether you're dealing with a powerful breed or simply a big-hearted companion, a training collar is built to handle the challenge.<\/p>\n<p>These shock collars for big dogs are your key to effective training and better communication. Explore the ease of remote control training to achieve better obedience, whether you need to correct behavior or strengthen commands.<\/p>\n<p>Designed with your pet's well-being in mind, our training collar offers safety, comfort, and precision. It's the perfect tool for trainers, pet owners, and anyone looking to enhance their large dog's training experience.<\/p>\n<p>Don't let the size of your canine companion hold you back – empower your training sessions and foster a stronger bond with your big dog today.<\/p>"
+      }
+    },
+    "ab272c07-592d-4bdf-9fed-eb9ed4d22e9b": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "What's the best shock collar for big dogs?",
+        "faq_content_1": "<p>The best shock collar for big dogs can depend on your specific training needs. Suitable choices for larger dogs due to their extended range and adjustable settings:<\/p>\n<ul>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t330\">T330<\/a>;<\/li>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t680-for-hunting\">T680<\/a>;<\/li>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t700\">T700<\/a>;<\/li>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t720\">T720<\/a>;<\/li>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-with-remote-t200-black\">T200<\/a>; <\/li>\n    <li>\n<a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t776\">T776<\/a>.<\/li>\n<\/ul>",
+        "faq_question_2": "Which Type of Training Collar Is Best for Large Dogs?",
+        "faq_content_2": "For large dogs, remote-controlled electronic training collars with adjustable settings for stimulation, vibration, and tone are often a good choice.",
+        "faq_question_3": "Are There Special Considerations for Large Dog Collars?",
+        "faq_content_3": "These collars should be sturdy and comfortable for the dog's size and strength. Ensure that the collar fits well and is not too tight or too loose. Additionally, it's crucial to select a collar with adjustable settings, as larger dogs may require higher intensity levels for effective training.",
+        "faq_question_4": "Do Large Dogs Require Stronger Collars?",
+        "faq_content_4": "Large dogs may benefit from collars that are built to withstand their size and strength. The strength of the collar should match the dog's power to ensure its durability. However, it's not just about the strength of the collar but also the appropriate training methods and settings.",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "ab272c07-592d-4bdf-9fed-eb9ed4d22e9b"
+  ]
+}

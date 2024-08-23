@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "169806750366d3f0cb": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Discover the perfect balance of innovation and convenience with our waterproof dog shock collars. Crafted with your dog's safety in mind, our waterproof training collars are built to withstand the antics of even the most adventurous pets.<\/p>\n<p>Rechargeable electric remote trainers put the power of effective training in your hands. With user-friendly controls and a comfortable fit, you can now take charge of your dog's behavior from a distance.<\/p>\n<p>At Pawious, we understand the importance of building a strong and positive bond between you and your canine companion. That's why our waterproof dog training collars are trusted by professional trainers and pet owners alike.<\/p>"
+      }
+    },
+    "7c30db2a-a7fe-446e-8794-97dde1a441d2": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "Are waterproof training collars safe for dogs?",
+        "faq_content_1": "Waterproof training collars are safe for dogs. These collars are designed to withstand exposure to water and other environmental factors, making them suitable for dogs who enjoy activities like swimming or playing in the rain. However, it's essential to ensure that the collar you choose is of high quality and properly fitted to your dog to avoid any discomfort or safety issues. Always follow the manufacturer's guidelines for safe and responsible use.",
+        "faq_question_2": "What are the main tips to check before using the collar in dense conditions?",
+        "faq_content_2": "Please make sure to close charging ports tightly. And avoid using shock function in water.",
+        "faq_question_3": "Can I Use a Waterproof Training Collar in the Pool or While Swimming?",
+        "faq_content_3": "Yes, you can. Just please make sure to close charging port tightly befre the use.",
+        "faq_question_4": "How Do I Clean a Waterproof Dog Training Collar?",
+        "faq_content_4": "It's essential to follow the specific care and maintenance instructions provided by the manufacturer of your training collar, as different brands and models may have slightly different requirements. Proper cleaning and maintenance will help ensure the longevity and effectiveness of your waterproof dog training collar.",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "169806750366d3f0cb",
+    "text_section2",
+    "7c30db2a-a7fe-446e-8794-97dde1a441d2"
+  ]
+}

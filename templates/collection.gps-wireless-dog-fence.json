@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Welcome to the future of pet safety and freedom with GPS Wireless Dog Fences! Our cutting-edge technology ensures that your pet stays safe and secure while enjoying the freedom to roam. Say goodbye to traditional barriers and say hello to the innovative world of GPS Invisible Dog Fence.<\/p>\n<p>No more unsightly fences or buried wires – just free will for your dogs and peace of mind for you. Whether you have a sprawling yard or a cozy space, our customizable solutions cater to your unique needs.<\/p>\n<p>Join us in embracing the future of pet containment and discover the benefits of GPS Wireless Dog Fences today. Give your pets the freedom they crave while ensuring their safety with our invisible fence system.<\/p>"
+      }
+    },
+    "88b4abc4-ac8b-49d9-8f55-24646ad26a85": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "Do Wireless or GPS dog fences work?",
+        "faq_content_1": "Yes, both Wireless and GPS dog fences can be effective tools for pet containment. Wireless systems use radio signals, while GPS fences utilize satellite technology. The choice between them depends on your specific needs and the layout of your property. We recommend to use our <a href=\"https:\/\/pawious.com\/pages\/quiz\">Fence Finder Quiz<\/a> for choosing optimal solution for your needs.",
+        "faq_question_2": "Are GPS Dog Fences Safe for My Dog?",
+        "faq_content_2": "GPS dog fences are generally considered safe for dogs. They rely on signals to establish boundaries and alert your pet without causing physical harm, making them a safer alternative to traditional physical fences.",
+        "faq_question_3": "What's the Difference Between GPS and Wireless Dog Fences?",
+        "faq_content_3": "GPS dog fences primarily use satellite signals and are suitable for larger, open outdoor areas. Wireless dog fences, on the other hand, use radio signals and are ideal for smaller properties. The choice depends on your property size and specific requirements.",
+        "faq_question_4": "Do GPS dog fences require a SIM card and monthly subscription payments for their operation?",
+        "faq_content_4": "No, our GPS dog fences do not require a SIM card or monthly subscriptions. They operate independently, using GPS technology for location tracking and boundary setting. It's a one-time purchase for long-term use.",
+        "faq_question_5": "Do GPS dog fences require Wi-Fi or mobile network coverage to function?",
+        "faq_content_5": "No, our GPS dog fences function independently of Wi-Fi or mobile network coverage. They rely on GPS technology for location tracking and boundary enforcement, making them suitable for remote or off-grid locations",
+        "faq_question_6": "How can I train my dog to respect boundaries?",
+        "faq_content_6": "<p>Patience and positive reinforcement are key to successful boundary training for your dog. We provide a comprehensive training guide with video instructions to assist you in this process.<\/p>\n<p>Some usefull tips:<\/p>\n<ol>\n    <li>Introduce Gradually: Begin by introducing the boundaries to your dog in small, controlled sessions.<\/li>\n    <li>Use Commands: Teach your dog specific commands like \"Stay\" and \"No\" when they approach the boundaries.<\/li>\n    <li>Positive Reinforcement: Reward your dog with treats and praise when they stay within the set boundaries.<\/li>\n    <li>Consistency: Be consistent with your training. Use the same commands and boundaries every time.<\/li>\n    <li>Leash Training: Initially, use a leash to guide your dog and prevent them from crossing the boundaries.<\/li>\n    <li>Regular Practice: Practice regularly to reinforce the training.<\/li>\n<\/ol>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "88b4abc4-ac8b-49d9-8f55-24646ad26a85"
+  ]
+}

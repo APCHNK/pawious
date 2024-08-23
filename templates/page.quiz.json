@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0a18a6c6-b4d3-4a87-a04c-7bb50c53152f": {
+      "type": "quiz-info",
+      "settings": {
+        "heading": "Which type of Dog Fence is right for me?",
+        "desctop_image": "shopify:\/\/shop_images\/Quiz_info_d_3.png",
+        "mobile_image1": "shopify:\/\/shop_images\/df_mobile_1.png",
+        "mobile_image2": "shopify:\/\/shop_images\/Quiz_info_m_3.png",
+        "desctop_text1": "Wireless Radio-Frequency Technology",
+        "desctop_text2": "GPS Fence<br>Technology",
+        "quiz_table": "<table>\n<tr>\n\t<td><\/td>\n\t<td>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/2160\/8501\/files\/wireless_icn.png\"><br>\n<\/td>\n        <td>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/2160\/8501\/files\/gps_icn.png\"><br>\n<\/td>\n<\/tr>\n<tr class=\"odd\">\n\t<td class=\"h-cell\">Best Use Environment<\/td>\n\t<td>Whether you need it indoors or outdoors, the wireless fence performs effectively for homes with small or medium-sized yards, as well as in rural areas and wooded locations<\/td>\n\t<td>Outdoors in open areas with a clear sky view for optimal GPS signal reception. For reliable performance, avoid indoor places, dense forests or heavily built-up urban areas<\/td>\n<\/tr>\n<tr class=\"even\">\n\t<td class=\"h-cell\">Area<\/td>\n\t<td>Small to Medium<\/td>\n\t<td>Medium to Large<\/td>\n<\/tr>\n<tr class=\"odd\">\n\t<td class=\"h-cell\">Range<\/td>\n\t<td>11-330 yards<\/td>\n\t<td>11-1000 yards<\/td>\n<\/tr>\n<tr class=\"even\">\n\t<td class=\"h-cell\">Rechargeable<\/td>\n\t<td>✓<\/td>\n\t<td>✓<\/td>\n<\/tr>\n<tr class=\"odd\">\n\t<td class=\"h-cell\">Min strap length<\/td>\n\t<td>9.5in<\/td>\n\t<td>9in<\/td>\n<\/tr>\n<tr class=\"even\">\n\t<td class=\"h-cell\">Signal source<\/td>\n\t<td>2.4GHz<\/td>\n\t<td>GPS<\/td>\n<\/tr>\n<tr class=\"odd\">\n\t<td class=\"h-cell\">Main obstacles<\/td>\n\t<td>Thick Walls - reduce effective range for 20-25%<\/td>\n\t<td>Roofs, Trees - anything between the satellite and the collar<\/td>\n<\/tr>\n<\/table>",
+        "text1": "Sounds complicated? - No worries.",
+        "text2": "Answer 5 simple questions and we pick the system that fits the best for your needs.",
+        "quiz_title": "Quiz",
+        "quiz_description": "Find the perfect GPS or Wireless Dog Fence system for your furry friend. Take our quick 3-minute quiz to identify the ideal solution to your dog's needs and the unique characteristics of your location.",
+        "button_title": "Take the Quiz",
+        "quiz_link": "#quiz-JRH3R2"
+      }
+    },
+    "4ca10427-45cb-4a27-8946-84a78e88abad": {
+      "type": "collection",
+      "settings": {
+        "title": "Wireless and GPS Systems",
+        "use_tag": "h5",
+        "collection": "gps-wireless-dog-fences",
+        "grid": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0a18a6c6-b4d3-4a87-a04c-7bb50c53152f",
+    "4ca10427-45cb-4a27-8946-84a78e88abad"
+  ]
+}

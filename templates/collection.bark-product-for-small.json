@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Is your pup's excessive barking causing frustration or tension in your household? It's time to explore our range of bark collars for small dogs, designed to address the unique needs of your tiny canine companion.<\/p>\n<p>Our anti-barking collars are tailored to provide effective and humane correction. These collars utilize advanced technology to detect and curb excessive barking while prioritizing your pet's comfort and well-being. Don't let your small dog's barking disrupt your peace and harmony – discover the solution you've been seeking in our selection of bark collars for small dogs.<\/p>\n<p>Regain the tranquility you and your beloved furry friend deserve, and enjoy a quieter coexistence. Say goodbye to incessant barking and hello to a more peaceful home with our specially-made bark collars for small dogs.<\/p>"
+      }
+    },
+    "ff1a3d9f-a1c6-44a4-8f74-1b7317ea2e5a": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "Do bark collars work on small dogs?",
+        "faq_content_1": "Yes, bark collars can be effective for controlling excessive barking in small dogs. However, it's important to choose a collar that is appropriately sized and designed for small dogs, as their needs and sensitivities may differ from larger breeds.",
+        "faq_question_2": "Are Bark Collars Safe for Small Dogs?",
+        "faq_content_2": "Bark collars are safe for small dogs when used responsibly and with the right settings. It's essential to select a collar with adjustable correction levels and ensure that the chosen intensity is suitable for your small dog's size and temperament.",
+        "faq_question_3": "Are Bark Collars Effective for Controlling Barking in Small Breeds?",
+        "faq_content_3": "Bark collars can be effective for controlling barking in small dog breeds. Smaller dogs can respond well to the corrective measures provided by these collars. However, the effectiveness of the collar may vary depending on the individual dog's behavior and response to training.",
+        "faq_question_4": "How Do I Choose the Right Bark Collar for My Small Dog?",
+        "faq_content_4": "<p>When choosing a bark collar for your small dog, consider the following factors:<\/p>\n<ul>\n    <li>Size and adjustability: Ensure the collar is designed to fit small dogs and can be adjusted for a comfortable and secure fit.<\/li>\n    <li>Correction options: Select a collar that offers a range of correction modes, such as sound, vibration, and adjustable shock levels, to cater to your dog's training needs.<\/li>\n    <li>Sensitivity levels: Some collars allow you to adjust the sensitivity settings to ensure they respond appropriately to your small dog's barking.<\/li>\n<\/ul>",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "ff1a3d9f-a1c6-44a4-8f74-1b7317ea2e5a"
+  ]
+}

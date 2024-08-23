@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Discover the perfect solution for training your petite four-legged friend with our specialized dog training collars for small dogs. Whether for obedience, behavior correction, or strengthening your bond with your small companion, our adjustable collars are designed to cater to smaller breeds' specific requirements.<\/p>\n<p>With precision and care, we've designed these collars to ensure comfort and effectiveness for your small dog's training journey. Bid farewell to generic solutions and welcome the customized training experience your small dog truly merits.<\/p>\n<p>Explore our training collars for small dogs and unlock the potential for a well-trained and well-behaved little companion. Start the journey to a happier and more harmonious relationship with your small dog today!<\/p>"
+      }
+    },
+    "7850cc19-d8da-4d6b-a67d-a191956a3459": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "Can small dogs use training collars?",
+        "faq_content_1": "Yes, small dogs can use training collars, but it's essential to select a collar that is appropriately sized and designed for their needs. Small dog training collars are available to ensure the collar is safe and effective for their size.",
+        "faq_question_2": "What is the best training collar for a small dog?",
+        "faq_content_2": "<p>The best training collar for a small dog depends on the specific training goals and the dog's temperament. Among the options you've listed, the <a href=\"https:\/\/pawious.com\/products\/dog-training-collar-with-remote-t200-black\">T200<\/a>, <a href=\"https:\/\/pawious.com\/products\/t503-dog-training-collar\">T503<\/a>, and <a href=\"https:\/\/pawious.com\/products\/dog-training-collar-t700\">T700<\/a> are suitable choices, but the ideal collar may vary depending on the individual dog's requirements.<\/p>",
+        "faq_question_3": "Are shock collars safe for small dogs?",
+        "faq_content_3": "Shock collars are safe for small dogs when used responsibly. It's important to choose a collar with adjustable settings to ensure the stimulation level is appropriate for the dog's size and temperament. Always follow the manufacturer's instructions and prioritize your dog's safety and comfort.",
+        "faq_question_4": "Is it OK to use a training collar on a puppy?",
+        "faq_content_4": "Using a training collar on a puppy should be done with caution. Puppies have developing bodies and should not be exposed to harsh training methods. It's advisable to wait until a puppy is at least six months old before considering the use of training collars. Prioritize positive reinforcement and gentle training techniques for puppies to establish a strong foundation of trust and obedience.",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "7850cc19-d8da-4d6b-a67d-a191956a3459"
+  ]
+}

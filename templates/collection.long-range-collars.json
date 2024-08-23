@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "Our long distance shock collar designed for dogs has arrived to transform your training journey. Thanks to these cutting-edge and inventive gadgets, bid farewell to the restrictions imposed by short-range collars. Our long range shock collar for dogs provides exceptional reach and effectiveness, enabling control and guidance from a significant distance.\n\nWhether you're working on obedience training, addressing behavioral issues, or simply enjoying off-leash adventures, long-distance shock collars ensure seamless communication. You'll experience a new level of convenience and efficiency, enhancing the bond between you and your beloved pet.\n\nDon't let distance stand in the way of effective training and a harmonious relationship with your dog. Embrace the future of dog training with long-range shock collars."
+      }
+    },
+    "7d4a21fc-fb65-4bce-b9f8-491594586022": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "How long is the range of a shock collar?",
+        "faq_content_1": "The range of a shock collar can vary significantly depending on the model. Our shock collars can have a range from 650ft to 3500ft. The specific range is usually indicated for each model, so it's important to choose a collar with a range that suits your training or tracking needs.",
+        "faq_question_2": "What Are the Typical Uses for Long-Range Collars?",
+        "faq_content_2": "Long-range collars have various applications. They are commonly used for remote dog training, hunting, and tracking purposes. Hunters often use long-range collars to control and locate their dogs in the field. Trainers use them for advanced training where dogs need to respond to commands at a distance.",
+        "faq_question_3": "Do Long-Range Collars Require a Clear Line of Sight?",
+        "faq_content_3": "No, long-range collars do not always require a clear line of sight. Many long-range collars operate using radio signals, which can penetrate obstacles such as trees, buildings, and other obstructions to maintain communication between the remote and the collar. However, the effectiveness of the signal may be reduced by significant obstacles, so it's essential to be aware of the collar's signal range limitations in different environments.",
+        "faq_question_4": "Can Long-Range Collars Track a Lost Dog?",
+        "faq_content_4": "Long-range collars are designed more for communication and training than for tracking a lost dog. While they can help locate a dog within their operational range using the sound signal or light, they are not ideal for finding a lost dog that has traveled a significant distance. For tracking lost dogs, specialized GPS tracking devices or services are typically more appropriate, as they provide real-time location information and have broader coverage.",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "7d4a21fc-fb65-4bce-b9f8-491594586022"
+  ]
+}

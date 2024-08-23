@@ -1,0 +1,26 @@
+{% if settings.social_icons_enabled %}
+  {% if settings.twitter_url != '' %}
+      <a href="{{ settings.twitter_url }}" target="_blank"><i class="fab fa-twitter"></i></a>
+  {% endif %}
+  {% if settings.facebook_url != '' %}
+      <a href="{{ settings.facebook_url }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  {% endif %}
+  {% if settings.pinterest_url != '' %}
+      <a href="{{ settings.pinterest_url }}" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+  {% endif %}
+  {% if settings.instagram_url != '' %}
+      <a href="{{ settings.instagram_url }}" target="_blank"><i class="fab fa-instagram"></i></a>
+  {% endif %}
+  {% if settings.google_url != '' %}
+      <a href="{{ settings.google_url }}" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+  {% endif %}
+  {% if settings.tumblr_url != '' %}
+      <a href="{{ settings.tumblr_url }}" target="_blank"><i class="fab fa-tumblr"></i></a>
+  {% endif %}
+  {% if settings.youtube_url != '' %}
+      <a href="{{ settings.youtube_url }}" target="_blank"><i class="fab fa-youtube"></i></a>
+  {% endif %}
+  {% if settings.vimeo_url != '' %}
+      <a href="{{ settings.vimeo_url }}" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+  {% endif %}
+{% endif %}

@@ -1,0 +1,35 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-6617cc2d2ff483a44805e212-product": {
+      "type": "ecom-6617cc2d2ff483a44805e212-product",
+      "blocks": {
+        "ecom-wj0864tw1ym": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "ecom-sd8g57ov4e": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "ecom-ytej2foxiwo": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ecom-wj0864tw1ym",
+        "ecom-sd8g57ov4e",
+        "ecom-ytej2foxiwo"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-6617cc2d2ff483a44805e212-product"
+  ]
+}

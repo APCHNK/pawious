@@ -1,0 +1,21 @@
+<div class="collection-filters">
+    
+	{%- liquid
+    if settings.sort-dropdown-a-check and collection.handle == 'gps-wireless-dog-fences'
+        render 'collection-filters-item' with filter_id: "filterDropA", tags: tags, collection: collection, current_tags: current_tags, active_tags: active_tags, sort: settings.sort_a, filter_heading: settings.filter1heading, is_color: settings.filter_a_color
+    endif
+    if settings.sort-dropdown-b-check and collection.handle == 'gps-wireless-dog-fences'
+        render 'collection-filters-item' with filter_id: "filterDropB", tags: tags, collection: collection, current_tags: current_tags, active_tags: active_tags, sort: settings.sort_b, filter_heading: settings.filter2heading, is_color: settings.filter_b_color
+    endif
+    if settings.sort-dropdown-c-check and collection.handle == 'gps-wireless-dog-fences'
+        render 'collection-filters-item' with filter_id: "filterDropC", tags: tags, collection: collection, current_tags: current_tags, active_tags: active_tags, sort: settings.sort_c, filter_heading: settings.filter3heading, is_color: settings.filter_c_color
+    endif
+    if settings.sort-dropdown-d-check and collection.handle == 'gps-wireless-dog-fences'
+        render 'collection-filters-item' with filter_id: "filterDropD", tags: tags, collection: collection, current_tags: current_tags, active_tags: active_tags, sort: settings.sort_d, filter_heading: settings.filter4heading, is_color: settings.filter_d_color
+    endif
+    if settings.sort-dropdown-e-check and collection.handle == 'gps-wireless-dog-fences'
+        render 'collection-filters-item' with filter_id: "filterDropE", tags: tags, collection: collection, current_tags: current_tags, active_tags: active_tags, sort: settings.sort_e, filter_heading: settings.filter5heading, is_color: settings.filter_e_color
+    endif
+-%}
+
+</div>

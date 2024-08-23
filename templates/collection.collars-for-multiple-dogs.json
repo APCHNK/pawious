@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Looking to train multiple dogs simultaneously? Our multi dog training collars are designed to simplify the process of training and managing multiple furry companions. With these collars for dogs, you can maintain control and provide guidance to each of your canine friends individually, ensuring a harmonious training experience.<\/p>\n<p>Our specialized collars feature cutting-edge technology that streamlines communication with multiple dogs, enabling you to effectively reinforce obedience commands and tackle behavior issues.<\/p>\n<p>Whether you're a professional dog trainer working with a group of dogs or a pet owner with a multi-dog household, our collars offer versatility and ease. Explore the possibilities of synchronized training with our shock collars for multiple dogs and enjoy a more organized and successful training regimen.<\/p>"
+      }
+    },
+    "4dbfc792-1b68-46f4-af44-8dcd3ca0b6c5": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "How Do Training Collars for Multiple Dogs Work?",
+        "faq_content_1": "Training collars for multiple dogs typically work through a single remote control that can communicate with multiple collars. Each collar is assigned a unique signal, allowing you to issue commands or corrections to specific dogs individually or to all dogs simultaneously, depending on the collar's design and your preferences.",
+        "faq_question_2": "Can I Control Each Dog Independently with Training Collars for Multiple Dogs?",
+        "faq_content_2": "Yes, training collars for multiple dogs are designed to allow independent control of each dog. You can send signals, such as vibrations or stimulations, to a specific collar, enabling you to address the training needs of individual dogs, even if they are in a group.",
+        "faq_question_3": "Are Training Collars for Multiple Dogs Suitable for All Breeds and Sizes?",
+        "faq_content_3": "Training collars for multiple dogs are available in various sizes and are suitable for a wide range of breeds and sizes. It's important to choose collars that fit the specific needs and comfort of each dog. Adjustable collars are often a good choice, as they can accommodate different neck sizes and breeds.",
+        "faq_question_4": "Do Training Collars for Multiple Dogs Have a Range Limit?",
+        "faq_content_4": "Yes, training collars for multiple dogs have a range limit, which varies depending on the model. It's essential to consider the range when selecting these collars, especially if you plan to use them over long distances. Be aware of the limitations and stay within the effective range to maintain reliable communication with your dogs.",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "4dbfc792-1b68-46f4-af44-8dcd3ca0b6c5"
+  ]
+}

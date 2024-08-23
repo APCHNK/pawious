@@ -1,0 +1,454 @@
+{
+  "sections": {
+    "homepageslideshow": {
+      "type": "homepage-slideshow",
+      "blocks": {
+        "6f9ea18b-9812-4303-ae3e-ae6d345d6768": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_2_new.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "GET YOURS",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "bottom",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "f6c405ac-53d9-4a8a-a5a2-de7d973bb87f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_1.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "c74717ad-16d5-4793-850c-f1c744bb1cc9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_5.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Get Yours with 30% off",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "bottom",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "caa69f69-e9a9-490d-986c-a546a8633753": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_2.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "cb3a7811-0f62-44f2-a3f1-54fa74fe6506": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collars.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/bark-control-products",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "2a1dfe8f-f3a1-40b8-9fb9-1ee9dd6fbd52": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black_Soft_Brown_and_Brown_Minimalist_Pet_Shop_For_Dog_Your_Story_870_x_330_..png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-dog-fences",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "afe8a346-8140-4415-a266-1a7848d6d4dd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brown_White_Photocentric_Dog_Training_Center_Facebook_Cover_870_x_330_..png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6f9ea18b-9812-4303-ae3e-ae6d345d6768",
+        "f6c405ac-53d9-4a8a-a5a2-de7d973bb87f",
+        "c74717ad-16d5-4793-850c-f1c744bb1cc9",
+        "caa69f69-e9a9-490d-986c-a546a8633753",
+        "cb3a7811-0f62-44f2-a3f1-54fa74fe6506",
+        "2a1dfe8f-f3a1-40b8-9fb9-1ee9dd6fbd52",
+        "afe8a346-8140-4415-a266-1a7848d6d4dd"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "bottom_padding": true,
+        "dots": true,
+        "speed": 4,
+        "heading_color": "#ff0000",
+        "heading_font_size": "60px",
+        "subheading_color": "#1e0c0c",
+        "subheading_font_size": "40px",
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "1633690128730d060b": {
+      "type": "homepage-mobile-slideshow",
+      "blocks": {
+        "568d43b9-7979-4cd8-a033-a5d67665a6b0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_1.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "3652abde-c2e0-4f09-907f-9b9601191563": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_2.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "bbdddf21-530f-4ca3-83a5-949514f4d6c1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collars.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/bark-control-products",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "1633690128730d060b-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black_Soft_Brown_and_Brown_Minimalist_Pet_Shop_For_Dog_Your_Story_870_x_330_..png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        },
+        "2e6f62b5-2bda-46b5-a4b5-0b8bf400e8e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobile_webp.webp",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/gps-wireless-dog-fences",
+            "heading_vertical_pos": "bottom",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "568d43b9-7979-4cd8-a033-a5d67665a6b0",
+        "3652abde-c2e0-4f09-907f-9b9601191563",
+        "bbdddf21-530f-4ca3-83a5-949514f4d6c1",
+        "1633690128730d060b-0",
+        "2e6f62b5-2bda-46b5-a4b5-0b8bf400e8e3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "bottom_padding": true,
+        "dots": true,
+        "speed": 2,
+        "heading_color": "#ffffff",
+        "heading_font_size": "30px",
+        "subheading_color": "#ffffff",
+        "subheading_font_size": "18px",
+        "button_font_size": "18px",
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "fb1d77bf-d0f4-4d32-924d-5f7e1ba825e4": {
+      "type": "video_with_text",
+      "custom_css": [
+        "h1 {font-style: normal; font-weight: 700; font-size: 26px; line-height: 32px; color: #3498db; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "revrt": false,
+        "m_revrt": true,
+        "heading": "Discover the Perfect Solution with Our Quick 3-Minute Quiz and Get 15% OFF",
+        "content": "Uncertain about which dog fence would be the perfect solution for you? Our quiz is designed to help you select the best dog fence tailored to your specific needs. <br><br>By gathering essential information about your place, environment, and your dog's specifics, our quiz provides immediate results, suggesting the most suitable dog fence models for your situation.  Start the quiz now and give your dog the freedom they deserve!",
+        "url": "shopify:\/\/pages\/quiz",
+        "btn_label": "Take the Quiz",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9efec89ab26b48819f9ee04e523cf07b.mp4",
+        "poster": "shopify:\/\/shop_images\/Dog-video-poster-800.webp",
+        "check": false,
+        "i_vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b0b55d6f25c14d2fb9575d0fd3eef144.mp4",
+        "bg_clr": false,
+        "body_text": "#cdcdcd"
+      }
+    },
+    "collection-1": {
+      "type": "collection",
+      "settings": {
+        "title": "Customer Favorites in Wireless Dog Containment Systems",
+        "use_tag": "h2",
+        "collection": "gps-dog-fences",
+        "grid": 5
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": ""
+      }
+    },
+    "collection": {
+      "type": "collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured Offers on Dog Training Collars",
+        "use_tag": "h1",
+        "collection": "",
+        "grid": 4
+      }
+    },
+    "video_carousel": {
+      "type": "video_carousel",
+      "settings": {
+        "video_title": "What people say about us",
+        "video_link_1": "https:\/\/www.youtube.com\/embed\/T2yVWiyE61A?si=XhZvHa5Qe_fDdV8p",
+        "video_link_2": "https:\/\/www.youtube.com\/embed\/ea7N75-bXZQ?si=EBd5xMzsBNZGfYqP",
+        "video_link_3": "https:\/\/www.youtube.com\/embed\/akcG6cHiQvk?si=JLiUuHSR2ohajpXA",
+        "video_link_4": "https:\/\/www.youtube.com\/embed\/yM0qssyuwyM?si=Ay8VyQ8SE3On6aoL",
+        "video_link_5": "",
+        "video_link_6": "",
+        "video_link_7": "https:\/\/www.youtube.com\/embed\/Z4x_DfrBTw4?si=SyTaTG8bNUq_OLbe",
+        "video_link_8": "https:\/\/www.youtube.com\/embed\/KP3bXqO6538?si=JeCBFTq164BaEfTH",
+        "video_link_9": "https:\/\/www.youtube.com\/embed\/WBM7HVKvsEc?si=-gea8VQbQoUblNSN",
+        "video_link_10": ""
+      }
+    },
+    "f0601a8d-168e-468e-a6a2-0150690e9379": {
+      "type": "judgeme_carousel_section",
+      "disabled": true,
+      "settings": {
+        "maxwidth": 1920
+      }
+    },
+    "b09a2b34-f575-4ca8-87bd-5b5153695f8b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gps-wireless-dog-fences"
+          }
+        },
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "remote-dog-training-collars"
+          }
+        },
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bark-control-products"
+          }
+        },
+        "a8b2c85f-63bc-487b-b22d-b6da718e2b83": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "collars-harnesses-and-leashes"
+          }
+        },
+        "5c757961-dfce-41ae-9e8e-4d1e2d6510c0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "supplements-health-supplies"
+          }
+        },
+        "57b0977c-0978-482a-8844-a94e6ea639c1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grooming-and-pet-care"
+          }
+        },
+        "45e8a289-fef9-41eb-a00b-b50e137e0478": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "car-seat-covers"
+          }
+        },
+        "302348a5-57e1-4198-9175-f2bc9c79aac9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-fence-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-1",
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-2",
+        "template--18573814759733__b09a2b34-f575-4ca8-87bd-5b5153695f8b-featured_collection-3",
+        "a8b2c85f-63bc-487b-b22d-b6da718e2b83",
+        "5c757961-dfce-41ae-9e8e-4d1e2d6510c0",
+        "57b0977c-0978-482a-8844-a94e6ea639c1",
+        "45e8a289-fef9-41eb-a00b-b50e137e0478",
+        "302348a5-57e1-4198-9175-f2bc9c79aac9"
+      ],
+      "settings": {
+        "title": "Shop by Categories",
+        "hide_title": false,
+        "show_border": false,
+        "collection_view": "show_in_carousel"
+      }
+    },
+    "homepagepromotion": {
+      "type": "homepage-promotion",
+      "blocks": {
+        "1525585927272": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1525585991589": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1525586001226": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1525585970213": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1525586012228": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1525586022003": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1525585927272",
+        "1525585991589",
+        "1525586001226",
+        "1525585970213",
+        "1525586012228",
+        "1525586022003"
+      ],
+      "disabled": true,
+      "settings": {
+        "promotion_title": "Want to Win Cool Prizes?",
+        "promotion_color": "#2980b9",
+        "promotion_text_color": "#ffffff",
+        "promotion_hashtag": "#HASHTAG",
+        "promotion_more_text": "Take a selfie with our product and email it to happytohelp@yourdomain.com to win!",
+        "promotion_enable_arrows": false,
+        "promotion_timer": 3
+      }
+    },
+    "1698948363395b23f5": {
+      "type": "apps",
+      "blocks": {
+        "f60f6f13-85a2-4bb8-a187-f5ce36630ffa": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "f60f6f13-85a2-4bb8-a187-f5ce36630ffa"
+      ],
+      "settings": {
+      }
+    },
+    "7dc834b0-1e79-4c46-8a3e-26058494fc2f": {
+      "type": "homepage-blogs",
+      "settings": {
+        "title": "Learning, and helpful information",
+        "blog": "learning-and-helpful-information",
+        "post_limit": 4,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "homepageslideshow",
+    "1633690128730d060b",
+    "fb1d77bf-d0f4-4d32-924d-5f7e1ba825e4",
+    "collection-1",
+    "text_section2",
+    "collection",
+    "video_carousel",
+    "f0601a8d-168e-468e-a6a2-0150690e9379",
+    "b09a2b34-f575-4ca8-87bd-5b5153695f8b",
+    "homepagepromotion",
+    "1698948363395b23f5",
+    "7dc834b0-1e79-4c46-8a3e-26058494fc2f"
+  ]
+}

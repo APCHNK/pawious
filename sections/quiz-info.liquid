@@ -1,0 +1,284 @@
+<!-- "Quiz Info section -->
+<div class="quiz-info">
+  <h1 style="text-align: center; {%- if settings.quiz_hide -%} margin-bottom: 0px; {%- else -%} margin-bottom: 0px; {%- endif -%} font-weight: 700;font-size: 24px;line-height: 31px;">{{ section.settings.heading }}</h1> 
+<div class="desktop-quiz-block hide" style="display: none !important;" {%- if settings.quiz_hide -%} style="display: none;" {%- endif -%}>  
+
+    <div class="row">
+      <div class="col-2">
+        <div style="height: 100%;">
+          <div class="quiz-text">
+            <div class="t-cell"><span>{{ section.settings.desctop_text1 }}</span></div>          
+          </div>
+          <div class="quiz-text">
+            <div class="t-cell"><span>{{ section.settings.desctop_text2 }}</span></div>
+          
+          </div> 
+        </div>  
+      </div>
+      <div class="col-10">
+        <img src="{{- section.settings.desctop_image | img_url: 'master' -}}" />  
+      </div>      
+    </div>
+  </div>
+  <div class="mobile-quiz-block"  >
+    <img src="{{- section.settings.mobile_image1 | img_url: 'master' -}}" style="display: none;" />
+    <br>
+    <img src="{{- section.settings.mobile_image2 | img_url: 'master' -}}" {%- if settings.quiz_hide -%} style="display: none;" {%- endif -%} style="display: none;"/>
+  </div>
+</div> 
+<div class="quiz-table">
+  {{ section.settings.quiz_table }}
+</div>
+<div class="quiz-block">
+  <div class="quiz-subtitle">{{ section.settings.text1 }}</div>
+  <div class="quiz-desc">{{ section.settings.text2 }}</div>
+  <div class="quiz-popup-block">
+    <h4>{{ section.settings.quiz_title }}</h4> 
+    <div class="quiz-popup-desc">{{ section.settings.quiz_description }}</div>
+    <a class="quiz-popup-btn" href="{{ section.settings.quiz_link }}">{{ section.settings.button_title }}</a>
+  </div>
+</div>
+
+<style>
+  .quiz-info{
+    background: rgba(52, 152, 219, 0.05);
+    padding: 60px 0;
+  } 
+  .quiz-info h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .desktop-quiz-block{
+    margin: 0 auto 60px auto;
+    max-width: 1600px;
+    padding: 0 5px;
+  }
+  .mobile-quiz-block{
+    text-align: center;
+    padding: 0 5px;
+    display: none;
+  }
+  .mobile-quiz-block img{
+    margin-bottom: 30px;
+  }  
+  .quiz-info h2{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .quiz-text{
+    font-weight: bold;
+    height: 50%;
+    text-align: right;
+    position:relative;
+  }
+  .t-cell{
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+  }
+  .quiz-table{
+    margin: 60px auto;
+    max-width: 1040px;
+  }
+  .quiz-table td{
+    padding: 16px 20px;
+    border: 3px solid #FFFFFF;
+    text-align: center;
+    width: 33%;
+  }
+  .quiz-table td.h-cell{
+    font-weight: bold;
+    text-align: left;
+  }
+  .quiz-table tr.odd td{
+    background: rgba(52, 152, 219, 0.1);
+  }
+  .quiz-table tr.even td{
+    background: rgba(52, 152, 219, 0.05);
+  }  
+  .quiz-block .quiz-subtitle{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: #3498DB;  
+    margin-bottom:20px;
+  }
+  .quiz-block .quiz-desc{
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .quiz-popup-block{
+    background: rgba(52, 152, 219, 0.05);
+    padding: 60px 0;
+    margin: 60px 0;
+    text-align: center;
+  }  
+  .quiz-popup-block h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;    
+    margin-bottom: 10px;
+  }
+  .quiz-popup-block .quiz-popup-desc{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    max-width:800px;
+    margin: 0 auto 20px auto;
+  }
+  .quiz-popup-block a{
+    padding: 14px 80px;
+    background: #3498DB;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+  }
+  @media only screen and (max-width: 840px) {
+     .desktop-quiz-block{
+      display: none;                       
+    }
+    .quiz-info{
+      padding-top: 30px;
+      padding-bottom: 0;
+      margin-bottom: 30px;      
+    }
+    .quiz-info h2{
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 23px;
+      margin-bottom: 30px;  
+      padding: 0 8px;
+    }
+  .quiz-block .quiz-subtitle{
+    font-size: 25px;
+    line-height: 27px;
+    padding: 0 8px;
+  }   
+  .quiz-popup-block{
+    padding: 30px 0;
+    margin: 30px 0;
+  }      
+  .quiz-popup-block h4{
+    font-size: 28px;
+    line-height: 39px;
+    padding: 0 8px;
+  }   
+  .quiz-popup-block .quiz-popup-desc{
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 8px;
+  }    
+    .mobile-quiz-block{
+      display: block;                       
+    } 
+    
+  }
+</style>
+{% schema %}
+{
+"name": "Quiz Info",
+"class": "quiz_info", 
+"settings": [
+    {
+    "type": "text",
+    "id": "heading",
+    "label": "Heading",
+    "default": "Heading Text"
+    },
+    {
+        "type": "image_picker",
+        "id": "desctop_image",
+        "label": "Desctop Image"
+    },
+    {
+        "type": "image_picker",
+        "id": "mobile_image1",
+        "label": "Mobile Image 1"
+    }, 
+    {
+        "type": "image_picker",
+        "id": "mobile_image2",
+        "label": "Mobile Image 2"
+    },  
+    {
+    "type": "textarea",
+    "id": "desctop_text1",
+    "label": "Desctop Text 1",
+    "default": "Text 1"
+    },  
+    {
+    "type": "textarea",
+    "id": "desctop_text2",
+    "label": "Desctop Text 2",
+    "default": "Text 2"
+    },    
+    {
+    "type": "textarea",
+    "id": "quiz_table",
+    "label": "Quiz Table"        
+    },  
+    {
+    "type": "text",
+    "id": "text1",
+    "label": "Text 1",
+    "default": "Text 1"
+    },  
+    {
+    "type": "text",
+    "id": "text2",
+    "label": "Text 2",
+    "default": "Text 2"
+    },  
+    {
+    "type": "text",
+    "id": "quiz_title",
+    "label": "Title",
+    "default": "Title"
+    },  
+    {
+    "type": "text",
+    "id": "quiz_description",
+    "label": "Description",
+    "default": "Description"
+    },  
+    {
+    "type": "text",
+    "id": "button_title",
+    "label": "Button Title",
+    "default": "Title"
+    },  
+    {
+    "type": "text",
+    "id": "quiz_link",
+    "label": "Quiz Link",
+    "default": "#quiz"
+    } ,  
+    {
+    "type": "checkbox",
+    "id": "quiz_hide",
+    "label": "Hide quiz?",
+    "default": true
+}
+
+    
+],
+"presets": [
+  {
+  "name": "Quiz Info"
+  }
+]    
+}
+
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,91 @@
+<!-- "Warranty section -->
+<div class="container">
+  <div class="warranty-page">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          {{ section.settings.warranty_text }}
+        </div>
+        <div class="col-12 col-md-6" style="text-align: center;">
+          <img src="{{- section.settings.warranty_image | img_url: 'master' -}}" /> 
+        </div>      
+      </div>
+  </div>
+</div>
+<style>
+.warranty-page{
+  padding: 40px;
+  background: rgba(52, 152, 219, 0.05);
+}
+.omnisend-form-646e06966a3925a0dc01c9e6-text-62a871d4e7d3697ece98c87e {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.omnisend-form-646e06966a3925a0dc01c9e6-text-624ab2f927652f651edfd0b0{
+  padding-top: 5px;
+  padding-bottom: 8px;  
+}  
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-62a34db0f7b3732a01429b16,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06daf109a253efacac42,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06c6f109a253efacac15,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e047ef109a253efacabe0,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e0644f109a253efacabe7,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e050ff109a253efacabe3  
+{
+  padding-top: 8px;
+  padding-bottom: 0;  
+}  
+.omnisend-form-646e06966a3925a0dc01c9e6-section-624ab2f927652f651edfd0ac{
+  padding: 0 !important;
+}  
+.omnisend-form-646e06966a3925a0dc01c9e6-text-624ab2f927652f651edfd0b0 p{
+  font-size: 26px !important;
+  font-family: var(--font-stack) !important;
+  text-align: left !important;
+} 
+.omnisend-form-646e06966a3925a0dc01c9e6-text-62a871d4e7d3697ece98c87e p{
+  text-align: left !important;
+}  
+
+
+#omnisend-form-646e06966a3925a0dc01c9e6-field-container-62a34db0f7b3732a01429b16-emailField-input.omnisend-form-646e06966a3925a0dc01c9e6-field-container-62a34db0f7b3732a01429b16-input,  
+#omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06daf109a253efacac42-firstName-input.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06daf109a253efacac42-input,
+#omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06c6f109a253efacac15-lastName-input.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e06c6f109a253efacac15-input,
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e047ef109a253efacabe0-select,  
+#omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e050ff109a253efacabe3-custom_OrderID-input.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e050ff109a253efacabe3-input
+{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+#omnisend-form-646e06966a3925a0dc01c9e6-action-627932485028ebd8c6660c51.omnisend-form-646e06966a3925a0dc01c9e6-action-627932485028ebd8c6660c51 {
+  margin-top: 5px;
+  background-color: rgba(52, 152, 219, 1);
+  border-color: rgba(52, 152, 219, 1);
+}
+.omnisend-form-646e06966a3925a0dc01c9e6-field-container-646e0644f109a253efacabe7-description{
+  color: rgba(52, 152, 219, 1);  
+}  
+</style>
+{% schema %}
+  {
+    "name": "Warranty Page",
+    "class": "warranty_page",
+    "settings": [
+      {
+      "type": "textarea",
+      "id": "warranty_text",
+      "label": "Wararnty Text",
+      "default": "Text 1"
+      },          
+      {
+          "type": "image_picker",
+          "id": "warranty_image",
+          "label": "Warranty Image"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Warranty Page"
+      }
+]       
+  }
+{% endschema %}

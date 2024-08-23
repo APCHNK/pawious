@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "68aef2d7-9126-4ab8-99e6-d49a3d81bd75": {
+      "type": "warranty",
+      "settings": {
+        "warranty_text": "<div id=\"omnisend-embedded-v2-646e06966a3925a0dc01c9e6\"><\/div>",
+        "warranty_image": "shopify:\/\/shop_images\/AT5A4303_1.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "68aef2d7-9126-4ab8-99e6-d49a3d81bd75"
+  ]
+}

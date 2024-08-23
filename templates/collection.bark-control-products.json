@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<p>Incessant barks may be causing tension between you and your furry friend, or even disturbing the peace in your neighborhood. Our bark collars for dogs are the solution you've been seeking. They are designed to help curb excessive barking in a safe and humane manner.<\/p>\n<p>Anti-barking collars utilize advanced technology to detect and deter excessive barking effectively. If you have a small yapper or a larger breed, remote bark collars are adjustable to suit various dog sizes and temperaments. Your pet's well-being is a priority, so our collars provide gentle correction, ensuring your dog learns to limit their barking without distress.<\/p>\n<p>Discover the tranquility that comes with reduced barking, and enjoy a more peaceful coexistence with your beloved canine companion.<\/p>"
+      }
+    },
+    "56a4fa42-e903-42a3-831f-639308f2e727": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "What is the best collar to stop a dog barking?",
+        "faq_content_1": "<p>\n    The best collar to stop a dog from barking depends on the dog's temperament and specific needs. Among the options you've mentioned, both the <a href=\"https:\/\/pawious.com\/products\/smart-dog-bark-collar-b800-black\">B800<\/a> and <a href=\"https:\/\/pawious.com\/products\/dog-bark-collar-b600\">B600<\/a> collars can be effective, but the ideal choice may vary depending on your dog's response to the collar's features and settings.\n<\/p>",
+        "faq_question_2": "How long can you leave a bark collar on a dog?",
+        "faq_content_2": "It is generally not recommended to leave a bark collar on a dog for extended periods. These collars are best used during training sessions or when you need to address excessive barking. Continuous wear for more than 8-12 hours can lead to discomfort or skin irritation. It's important to follow the manufacturer's guidelines and remove the collar when it's not in use.",
+        "faq_question_3": "When should you not use a bark collar?",
+        "faq_content_3": "<p>You should avoid using a bark collar in the following situations:<\/p>\n<ul>\n    <li>With puppies under six months of age, as they are still developing and may not respond well to such training methods.<\/li>\n    <li>If your dog has a history of anxiety, fear, or aggression, as using a bark collar could worsen their emotional state.<\/li>\n    <li>When the barking is caused by a medical issue, as it's essential to address the underlying health problem instead.<\/li>\n    <li>If your dog's barking is a result of insufficient exercise, mental stimulation, or social interaction, as these issues should be resolved through other means.<\/li>\n<\/ul>",
+        "faq_question_4": "Are There Different Types of Bark Collars?",
+        "faq_content_4": "<p>Yes, there are different types of bark collars, including:<\/p>\n<ul>\n    <li>Sound+Vibration Collars: These collars emit a sound and a vibration to deter barking without using static shock.<\/li>\n    <li>Sound+Vibration+Shock Collars: These collars use a combination of sound, vibration, and static shock as corrective measures for barking. It's essential to select the type that aligns with your dog's temperament and training requirements.<\/li>\n<\/ul>",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "56a4fa42-e903-42a3-831f-639308f2e727"
+  ]
+}

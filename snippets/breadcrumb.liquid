@@ -1,0 +1,108 @@
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
+  <nav class="breadcrumb" role="navigation" style="z-index: 9999;" aria-label="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+    <a style="z-index: 9999;" href="/" itemprop="item" title="{{ 'general.breadcrumbs.home_link_title' | t }}">
+      <span itemprop="name">{{ 'general.breadcrumbs.home' | t }} </span>
+    </a>
+    <meta itemprop="position" content="1">
+  </span>
+    {% if template contains 'product' %}    
+  
+  {% assign position = 2 %}
+  {% for collection in product.collections.last %}
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a href="{{ collection.url }}" class="breadcrumb" style="z-index: 9999;" itemprop="item">
+        <span itemprop="name">/ {{ collection.title }} </span>
+      </a>
+      <meta itemprop="position" content="{{ position }}">
+    </span>
+    
+    {% assign position = position | plus: 1 %}
+  {% endfor %}
+  <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a style="z-index: 9999;">
+    <span itemprop="name">/ {{ product.title }}</span>
+    </a>
+    <meta itemprop="position" content="{{ position }}">
+  </span>
+
+    {% elsif template contains "blog" %}
+      <!-- Код для страниц блогов -->
+      {% assign blog_handle = 'learning-and-helpful-information' %}
+      {% assign blog = blogs[blog_handle] %}
+      <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="/blogs/{{ blog.handle }}" class="breadcrumb" itemprop="item">
+          <span>/</span>
+          <span itemprop="name">{{ blog.title }}</span>
+        </a>
+        <meta itemprop="position" content="2">
+      </span>
+    {% elsif template contains "collection" %}
+      {% if current_tags.size > 0 %}
+        <span>/</span>
+        {{ collection.title | link_to: collection.url }}
+        <span>/</span>
+        <span class="page-title">{{ current_tags.first }}</span>
+      {% else %}
+        <span class="urltag">
+          <span>/</span>
+          <span class="page-title"><a href=""></a></span>
+        </span>
+        <span>/</span>
+        <span class="page-title">{{ collection.title }}</span>
+      {% endif %}
+    {% elsif template contains "search" %}
+      <span>/</span>
+      <span>SEARCH RESULTS FOR</span>
+      <span class="page-title page-breadcumb">"{{ page_title | escape | replace: "*", '' }}</span>
+      {% elsif template contains "article" %}
+      <!-- Код для страниц блогов -->
+      {% assign blog_handle = 'learning-and-helpful-information' %}
+      {% assign blog = blogs[blog_handle] %}
+      <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="/blogs/{{ blog.handle }}" class="breadcrumb" itemprop="item">
+          <span>/</span>
+          <span itemprop="name">{{ blog.title }}</span>
+        </a>
+        <meta itemprop="position" content="2">
+      </span>
+      <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="{{ request.path }}" class="breadcrumb" itemprop="item">
+          <span>/</span>
+          <span itemprop="name">{{ article.title }}</span>
+        </a>
+        <meta itemprop="position" content="3">
+      </span>
+    {% else %}
+      <!-- Код для других типов страниц -->
+      <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="{{ page.url }}" class="breadcrumb" itemprop="item">
+          <span>/</span>
+          <span itemprop="name">{{ page.title }}</span>
+        </a>
+        <meta itemprop="position" content="2">
+      </span>
+    {% endif %}
+  </nav>
+{% endunless %}
+<script>
+  window.addEventListener("load", function () {
+    $(document).ready(function() {
+      var hash;
+      var urlTag = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+      for(var i = 0; i < urlTag.length; i++) {
+        hash = urlTag[i].split('=');
+      }
+      if(hash[0] == 'custom'){
+        var urlTag_url = hash[1].toString().split('%20').join('-');
+        urlTag_url =urlTag_url.toLowerCase();
+        $(".urltag .page-title a").attr("href", "/pages/"+urlTag_url);
+        var urlTag_breadcrum = hash[1].toString().split('%20').join(' ');
+        $(".urltag .page-title a").text(urlTag_breadcrum);
+      }else{
+        $(".urltag").hide();
+      }
+    });
+  });
+</script>
+

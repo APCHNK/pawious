@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "67faa956-c444-4946-8507-dfe33e3a3c6b": {
+      "type": "homepage-slideshow",
+      "blocks": {
+        "template--21451365548341__67faa956-c444-4946-8507-dfe33e3a3c6b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_5.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "SCROLL TO REVIEWS",
+            "link": "#rewiew",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21451365548341__67faa956-c444-4946-8507-dfe33e3a3c6b-image-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "bottom_padding": true,
+        "dots": true,
+        "speed": 2,
+        "heading_color": "#ffffff",
+        "heading_font_size": "80px",
+        "subheading_color": "#ffffff",
+        "subheading_font_size": "30px",
+        "button_bg_color": "#6e9c5d",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "846c6cd4-9392-4393-ab54-5d14436bd408": {
+      "type": "homepage-mobile-slideshow",
+      "blocks": {
+        "template--21451365548341__846c6cd4-9392-4393-ab54-5d14436bd408-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog_fence_5.png",
+            "heading": "",
+            "subheading": "",
+            "button_text": "",
+            "link": "",
+            "heading_vertical_pos": "center",
+            "heading_horizontal_pos": "center",
+            "text_overlay_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21451365548341__846c6cd4-9392-4393-ab54-5d14436bd408-image-1"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "bottom_padding": false,
+        "dots": true,
+        "speed": 2,
+        "heading_color": "#ffffff",
+        "heading_font_size": "30px",
+        "subheading_color": "#ffffff",
+        "subheading_font_size": "18px",
+        "button_font_size": "18px",
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "text_section": {
+      "type": "text_section",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_area": "<h1>Customer Stories & Testimonials<\/h1>"
+      }
+    },
+    "c3bd9589-3592-4f49-b6e5-6da343845f1a": {
+      "type": "homepage-blogs",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Blog posts",
+        "blog": "learning-and-helpful-information",
+        "post_limit": 8,
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "show_view_all": false
+      }
+    },
+    "16989594532d3c1152": {
+      "type": "apps",
+      "blocks": {
+        "7a26afb1-fb2d-42c4-9696-3c8e7d16210c": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7a26afb1-fb2d-42c4-9696-3c8e7d16210c"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "jdgm-rev-widg {}"
+      ],
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": "<h2>Verified Customer Reviews<\/h2>"
+      }
+    },
+    "1698958875b8dc4f9d": {
+      "type": "apps",
+      "blocks": {
+        "bb17b597-7b4c-457a-b957-2754c9d7a2b3": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "bb17b597-7b4c-457a-b957-2754c9d7a2b3"
+      ],
+      "custom_css": [
+        ".jdgm-rev-widg {padding: 2% 16% 2% 16%;}",
+        ".jdgm-all-reviews-widget {padding: 2% 16% 2% 16% !important;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "67faa956-c444-4946-8507-dfe33e3a3c6b",
+    "846c6cd4-9392-4393-ab54-5d14436bd408",
+    "text_section",
+    "c3bd9589-3592-4f49-b6e5-6da343845f1a",
+    "16989594532d3c1152",
+    "text_section2",
+    "1698958875b8dc4f9d"
+  ]
+}

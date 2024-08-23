@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "169806750366d3f0cb": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "settings": {
+        "text_area": " "
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "169806750366d3f0cb"
+  ]
+}

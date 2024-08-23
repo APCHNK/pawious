@@ -1,0 +1,326 @@
+{% schema %}
+{
+  "name": "video Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_title",
+      "label": "Video Title"
+    },
+    {
+      "type": "url",
+      "id": "video_link_1",
+      "label": "video_link_1"
+    },
+    {
+      "type": "url",
+      "id": "video_link_2",
+      "label": "video_link_2"
+    },
+    {
+      "type": "url",
+      "id": "video_link_3",
+      "label": "video_link_3"
+    },
+    {
+      "type": "url",
+      "id": "video_link_4",
+      "label": "video_link_4"
+    },
+    {
+      "type": "url",
+      "id": "video_link_5",
+      "label": "video_link_5"
+    },
+    {
+      "type": "url",
+      "id": "video_link_6",
+      "label": "video_link_6"
+    },
+    {
+      "type": "url",
+      "id": "video_link_7",
+      "label": "video_link_7"
+    },
+    {
+      "type": "url",
+      "id": "video_link_8",
+      "label": "video_link_8"
+    },
+    {
+      "type": "url",
+      "id": "video_link_9",
+      "label": "video_link_9"
+    },
+    {
+      "type": "url",
+      "id": "video_link_10",
+      "label": "video_link_10"
+    }
+  ]
+}
+{% endschema %}
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Подключение Slick Slider -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+{% if section.settings.video_title != nil and section.settings.video_title != '' %}
+<h2 class="jdgm-carousel-title" style="padding-bottom: 15px;">{{ section.settings.video_title }}</h2>
+  
+<div class="carousel">
+   {% if section.settings.video_link_1 != nil and section.settings.video_link_1 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_1 }}" frameborder="0" autoplay="0" loading="lazy" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+   {% if section.settings.video_link_2 != nil and section.settings.video_link_2 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_2 }}" frameborder="0" autoplay="0" loading="lazy" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_3 != nil and section.settings.video_link_3 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_3 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_4 != nil and section.settings.video_link_4 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_4 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_5 != nil and section.settings.video_link_5 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_5 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_6 != nil and section.settings.video_link_6 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_6 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_7 != nil and section.settings.video_link_7 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_7 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_8 != nil and section.settings.video_link_8 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_8 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_9 != nil and section.settings.video_link_9 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_9 }}" frameborder="0" autoplay="0" loading="lazy"  allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  {% if section.settings.video_link_10 != nil and section.settings.video_link_10 != '' %}
+  <div class="slide">
+    <iframe src="{{ section.settings.video_link_10 }}" frameborder="0" autoplay="0" loading="lazy" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  
+</div>
+<div class="jdgm-carousel__arrows1">
+  <div class="jdgm-carousel__left-arrow1 prev" tabindex="0"><i class="shoptimized-064"></i></div> 
+  <div class="jdgm-carousel__right-arrow1 next" tabindex="0"><i class="shoptimized-074"></i></div>
+</div>
+{% endif %}
+<!-- Инициализация Slick Slider -->
+<style>
+/* Стилизация блока с кнопками */
+.jdgm-carousel__arrows1 {
+  position: relative;
+  width: 100%; /* Ширина блока */
+  text-align: center; /* Центрирование содержимого */
+}
+
+/* Стилизация кнопки "Previous" */
+.jdgm-carousel__left-arrow1 {
+  top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #414141;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 16px 1px rgba(0,0,0,.2);
+    line-height: 33px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition-property: background-color,color,border-color;
+    transition-duration: .4s;
+  float: left;
+  margin-left: 6%;
+  margin-top: -7%;
+}
+
+/* Стилизация кнопки "Next" */
+.jdgm-carousel__right-arrow1 {
+  top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #414141;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 16px 1px rgba(0,0,0,.2);
+    line-height: 33px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition-property: background-color,color,border-color;
+    transition-duration: .4s;
+  float: right;
+  margin-right: 6%;
+  margin-top: -7%;
+}
+  @media only screen and (max-width: 767px){
+    /* Стилизация кнопки "Previous" */
+.jdgm-carousel__left-arrow1 {
+  float: left;
+    margin-left: 3%;
+    margin-top: -28%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #414141;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 16px 1px rgba(0,0,0,.2);
+    line-height: 33px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition-property: background-color,color,border-color;
+    transition-duration: .4s;
+}
+
+/* Стилизация кнопки "Next" */
+.jdgm-carousel__right-arrow1 {
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #414141;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 16px 1px rgba(0,0,0,.2);
+    line-height: 33px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition-property: background-color,color,border-color;
+    transition-duration: .4s;
+  float: right;
+  margin-right: 3%;
+  margin-top: -28%;
+}
+    
+  }
+  @media (min-width: 1500px){
+    /* Стилизация кнопки "Previous" */
+.jdgm-carousel__left-arrow1 {
+    margin-top: -5%;
+}
+
+/* Стилизация кнопки "Next" */
+.jdgm-carousel__right-arrow1 {
+  margin-top: -5%;
+}  
+  }
+  
+</style>
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+    $('.carousel').slick({
+      infinite: true,
+      slidesToShow: 3, /* Отображаем 3 слайда */
+      slidesToScroll: 1,
+      autoplay: false, 
+      autoplaySpeed: 3000, /* Скорость автопрокрутки */
+      prevArrow: $('.prev'), /* Кнопка "Previous" */
+      nextArrow: $('.next'),  /* Кнопка "Next" */
+      responsive: [
+        {
+          breakpoint: 768, /* Максимальная ширина для мобильных устройств */
+          settings: {
+            slidesToShow: 1, /* Отображаем 1 слайд на мобильных устройствах */
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            autoplay: false
+          }
+        }
+      ]
+    });
+    $('.prev').click(function(){
+    $('.carousel').slick('slickPrev');
+  });
+
+  $('.next').click(function(){
+    $('.carousel').slick('slickNext');
+  });
+  });
+$(document).on('click', '.jdgm-carousel__arrows1 .next', function(){
+  
+   jQuery("iframe").each(function() {
+      jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
+});
+
+</script>
+<style>
+  .carousel .slick-slide {
+  padding: 0px 0px 0px 10px;
+  }
+  @media only screen and (max-width: 767px){
+    .carousel {
+      width: 75%; /* Укажите нужную ширину карусели */
+      margin: 0 auto;
+    }
+  /*  .carousel .slide iframe {
+    pointer-events: none;  
+  } */
+    
+  }
+  .carousel {
+  width: 80%; /* Укажите нужную ширину карусели */
+  margin: 0 auto;
+}
+
+.slide {
+  display: inline-block;
+  width: 33.33%; /* Отображаем 3 слайда в одном ряду */
+}
+
+.slide iframe {
+  width: 100%;
+  height: 200px; /* Укажите нужную высоту для видео */
+}
+</style>

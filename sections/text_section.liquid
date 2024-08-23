@@ -1,0 +1,24 @@
+{% schema %}
+  {
+    "name": "text_section",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text_area", 
+        "label": "TEXT area"
+      }
+    ]
+  }
+{% endschema %}
+
+{% if section.settings.text_area != '' %}
+  <div class="container text-section">
+    {{ section.settings.text_area }}
+  </div>
+{% endif %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

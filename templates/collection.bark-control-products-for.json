@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+      }
+    },
+    "text_section2": {
+      "type": "text_section2",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_area": "<p>If you have a large or big dog whose incessant barking is becoming a challenge, you've got the solution. Our bark collar for large dogs is tailored to address excessive barking in your beloved, large furry companion.<\/p>\n<p>Designed with your pet's comfort and well-being in mind, they offer a humane and effective solution to curb unwanted barking.<\/p>\n<p>These advanced bark collars for big dogs utilize cutting-edge technology to detect and deter excessive barking while ensuring your dog's safety. With gentle correction methods, our bark collars are made to help your dog learn to control their barking without causing any distress.<\/p>\n<p>Put an end to the noise and enjoy a more serene coexistence with your large canine companion.<\/p>"
+      }
+    },
+    "ed3be3c5-6989-40f6-b06f-c90a9bf80c70": {
+      "type": "add_faq_template",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "What Is a Bark Collar for Large Dogs?",
+        "faq_content_1": "Bark collars for large dogs are specially designed devices that help control excessive barking in larger dog breeds. They are available in various models, including the B800, B800c, and B600, which are designed to accommodate the size and needs of larger dogs.",
+        "faq_question_2": "What Types of Bark Collars Are Available for Large Dogs?",
+        "faq_content_2": "Most bark collar products are adjustable and can fit larger dogs. However, for large dogs, it is often recommended to choose models like the B800, B800c, and B600, which provide sound, vibration, and shock correction options. These models offer versatility in addressing barking issues effectively.",
+        "faq_question_3": "Are Bark Collars Effective for Controlling Barking in Large Breeds?",
+        "faq_content_3": "Bark collars can be effective for controlling barking in large dog breeds, but their effectiveness may vary depending on the dog's temperament and the consistency of use. Large dogs often respond well to bark collars, but it's essential to use them responsibly, ensuring that the correction levels are appropriate for the dog's size and comfort.",
+        "faq_question_4": "How Do I Choose the Right Bark Collar for My Large Dog?",
+        "faq_content_4": "<p>When choosing the right bark collar for your large dog, consider the following:<\/p>\n<ul>\n    <li>Size and adjustability: Ensure the collar is suitable for your dog's neck size and that it can be adjusted for a comfortable fit.<\/li>\n    <li>Correction options: Select a collar with correction modes that match your dog's training needs and temperament.<\/li>\n    <li>Sensitivity levels: Some collars offer adjustable sensitivity settings to ensure they respond appropriately to your dog's barking.<\/li>\n<\/ul>",
+        "faq_question_5": "",
+        "faq_content_5": "",
+        "faq_question_6": "",
+        "faq_content_6": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_section2",
+    "ed3be3c5-6989-40f6-b06f-c90a9bf80c70"
+  ]
+}
